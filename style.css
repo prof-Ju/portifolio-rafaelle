@@ -1,10 +1,10 @@
-body{
+body {
      font-family: 'Roboto Mono', monospace;
 }
 
 header {
      background-color: black;
-     color:white;
+     color: white;
      height: 150px;
      display: flex;
      justify-content: center;
@@ -12,14 +12,14 @@ header {
      align-items: center;
 }
 
-header h1{
+header h1 {
      font-size: 50px;
      font-family: 'Roboto Mono', monospace;
      font-weight: 700;
      margin-bottom: 20px;
 }
 
-header a{
+header a {
      font-size: 25px;
      font-family: 'Roboto Mono', monospace;
      font-weight: 400;
@@ -39,7 +39,7 @@ header a{
      width: 150px;
      height: 40px;
      background-color: blueviolet;
-     display: flex ;
+     display: flex;
      justify-content: center;
      border-radius: 10%;
      color: white;
@@ -47,41 +47,59 @@ header a{
 
 }
 
-.menu i{
+.menu i {
      margin-left: -6px
 }
 
-.sobre{
+.sobre {
      padding-top: 100px;
      font-family: 'Roboto Mono', monospace;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+
 
 }
 
-.sobre h2{
+.sobre h2 {
      font-family: 'Roboto Mono', monospace;
-     font-size:50px;
+     font-size: 50px;
      text-transform: capitalize;
      color: blueviolet;
      font-weight: bolder;
 
 }
 
-.sobre h3{
-     font-size:25px;
+.sobre h3 {
+     font-size: 25px;
      font-style: italic;
      font-family: 'Roboto Mono', monospace;
      font-weight: 400;
 }
 
-.sobre h4{
-     font-size:18px;
+.sobre h4 {
+     font-size: 18px;
      font-style: italic;
      font-family: 'Roboto Mono', monospace;
-     font-weight: 300;
+     font-weight: 400;
 }
 
-.sobre-img img{
+.sobre-img img {
      width: 300px;
-     border-radius:100%
+     border-radius: 100%;
+     margin-top: 30px;
+
+
+}
+
+footer {
+     background: #ffffff;
+     background: -moz-linear-gradient(45deg, #ffffff 0%, #8a2be2 0%, #e08f2c 100%);
+     background: -webkit-linear-gradient(45deg, #ffffff 0%, #8a2be2 0%, #e08f2c 100%);
+     background: linear-gradient(45deg, #ffffff 0%, #8a2be2 0%, #e08f2c 100%);
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e08f2c', GradientType=1);
+
+     height: 100px
 
 }
